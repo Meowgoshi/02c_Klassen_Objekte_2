@@ -31,14 +31,7 @@ public String getStringAttributes(String op) {
 
 public String getAge() 
 {
-  if (isFemale) 
-  {
-    return checkCompliance();
-  } 
-  else 
-  {
-    return String.valueOf(age);
-  }
+  return checkCompliance();
 }
 
 private String checkCompliance()
